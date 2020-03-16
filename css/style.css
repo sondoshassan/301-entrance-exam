@@ -33,11 +33,13 @@ legend {
     padding-bottom: 25px;
     font-size: 21px;
     text-align: center;
+    text-transform: uppercase;
 }
 input#work {
     margin: 9px 81px;
     padding: 5px 69px;
     margin-bottom: 36px;
+    text-transform: uppercase;
 }
 input#start {
     margin: 9px 81px;

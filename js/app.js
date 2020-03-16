@@ -64,3 +64,24 @@ function get(){
 }
 get();
 
+// do the date 
+var n =  new Date();
+var y = n.getFullYear();
+// var m = n.getMonth() + 1;
+var month = new Array();
+month[0] = 'Jan';
+month[1] = 'Feb';
+month[2] = 'Mar';
+month[3] = 'April';
+month[4] = 'May';
+month[5] = 'June';
+month[6] = 'July';
+month[7] = 'Aug';
+month[8] = 'Sep';
+month[9] = 'Oct';
+month[10] = 'Nov';
+month[11] = 'Dec';
+
+var m = month[n.getMonth()];
+var d = n.getDate();
+document.getElementById('topdate').innerHTML = m + ' ' + d + ' ' + y;
