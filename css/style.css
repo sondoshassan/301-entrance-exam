@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+.capital {
+    text-transform: capitalize;
+}
+.font {
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    background-color: #eee;
+    height: 580px;
+}
+header {
+    background-color: #6d8adbc7;
+    margin: auto;
+    text-align: center;
+}
+h1 {
+    color: white;
+    font-size: 35px;
+    padding: 20px;
+}
+form#form {
+    width: 34%;
+    padding: 32px;
+    height: 261px;
+    margin: 91px 0 0 73px;
+    background-color: #dae4ff;
+    position: relative;
+    float: left;
+}
+legend {
+    padding-bottom: 25px;
+    font-size: 21px;
+    text-align: center;
+}
+input#work {
+    margin: 9px 81px;
+    padding: 5px 69px;
+    margin-bottom: 36px;
+}
+input#start {
+    margin: 9px 81px;
+    padding: 2px 80px;
+}
+#submit {
+    position: absolute;
+    left: 66%;
+    top: 74%;
+    background-color: #6d8adbc7;
+    border: none;
+    color: white;
+    padding: 8px 19px;
+}
+label {
+    margin-left: 80px;
+}
+#list {
+    list-style: decimal;
+    float: right;
+    margin: 109px;
+    margin-right: 441px;
+}
+p {
+    color: #5e5ef1;
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    margin: 0 0 40px 0;
+}
+li {
+    margin: 6px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    text-transform: capitalize;
+
+}
+ul#remove {
+    position: absolute;
+    left: 87%;
+    top: 30%;
+    color: red;
+}
+ul#remove li {
+    padding-bottom: 55px;
+}
